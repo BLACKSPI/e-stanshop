@@ -12,6 +12,7 @@ var homeSwiper = new Swiper(".home-swiper", {
 
 // Scroll Header
 
+// This function changes the header style on scroll
 function scrollHeader(){
     const header = document.getElementById('header');
     if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header');
